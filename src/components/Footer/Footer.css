@@ -1,0 +1,8 @@
+.footer-btn a{
+margin-right: 30px;
+text-decoration: none;
+color: rgb(245, 223, 223);
+}
+.footer-btn a:hover{
+    text-decoration: underline;
+}

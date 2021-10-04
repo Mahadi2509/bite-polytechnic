@@ -3,11 +3,11 @@ import logo from '../../images/logo.jpg';
 import './Footer.css'
 const Footer = () => {
     const whitesmoke = {
-        color: 'rgb(245, 223, 223)',
+        color: 'whitesmoke',
 
     }
     return (
-        <div style={{ backgroundColor: 'gray', paddingTop: '40px' }}>
+        <div style={{ backgroundColor: 'rgb(101, 160, 119)', paddingTop: '40px' }}>
             <div className="d-flex align-items-center justify-content-around">
                 <div className="d-flex">
                     <img className="rounded-circle" width="30px" height="30px" src={logo} alt="" />
@@ -31,7 +31,7 @@ const Footer = () => {
                     <p><i style={{ color: 'whitesmoke' }} className="fab fa-youtube fs-2 me-3"></i></p>
                 </div>
             </div>
-            <p style={{ color: 'whitesmoke', textAlign: 'center', paddingBottom: '20px' }}>Copyright © 2021 bite-polytechnic.com</p>
+            <p style={{ color: 'whitesmoke', textAlign: 'center', paddingBottom: '20px', marginBottom: '0' }}>Copyright © 2021 bite-polytechnic.com</p>
         </div>
     );
 };

@@ -1,10 +1,17 @@
 import React from 'react';
+import { Card, Col } from 'react-bootstrap';
 
-const Courses = () => {
+const Courses = (props) => {
+    const { name, img } = props.course;
     return (
-        <div>
-            <h1>Courses</h1>
-        </div>
+        <Col>
+            <Card>
+                <img width="100%" height="300px" variant="top" src={img} />
+                <Card.Body>
+                    <Card.Title>{name}</Card.Title>
+                </Card.Body>
+            </Card>
+        </Col>
     );
 };
 

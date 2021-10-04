@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
+import Course from './components/Course/Course';
 import Courses from './components/Courses/Courses';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';

@@ -2,8 +2,8 @@ import React from 'react';
 
 const MyClass = () => {
     return (
-        <div>
-            <h1>This is our class</h1>
+        <div style={{ minHeight: '320px' }}>
+
         </div>
     );
 };
